@@ -1,0 +1,103 @@
+
+p {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    color: black;
+  }
+h1 {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 48px;
+    width: 20%;
+    background-color: rgb(161, 98, 61);
+    padding: 5px;
+  }
+h2 {
+    border: 2px solid black;
+    border-radius: 48px;
+    background-color: rgb(161, 98, 61);
+    padding: 10px;
+    margin: 0 0 0 550px;
+}
+ul {
+    border: 20px solid white;
+    width: 20%;
+    color: black;
+    background-color: white;
+    border-radius: 30px 0 30px 0;
+    margin: 15px 0 20px 500px;
+}
+ol {
+    border: 20px solid white;
+    width: 20%;
+    color: black;
+    background-color: white;
+    border-radius: 30px 0 30px 0;
+    margin: 15px 0 20px 500px;
+  }
+img {
+    width: 250px;
+    height: 250px;
+}
+.receitas {
+    margin: 30px 0 0 0;
+}
+/* body {
+    background-color: rgb(194, 144, 124);
+} */
+body {
+    display: flex; /* Usa flexbox para estruturar os elementos */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    height: 100vh; /* Define altura total da tela */
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background: rgb(199, 103, 48); /* Define o fundo branco */
+    text-align: center;
+}
+.topo {
+    background: rgb(255, 203, 154); /* Define a cor de fundo */
+    height: 15%; /* Define altura do topo */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
+.container {
+    display: flex; /* Usa flexbox para estruturar navegação e conteúdo */
+    flex: 1; /* Ocupa o espaço disponível */
+}
+.navegacao {
+    background: rgb(255, 203, 154); /* Define cor de fundo */
+    width: 20%; /* Define largura da navegação */
+    /* writing-mode: vertical-rl; /* Rotaciona o texto verticalmente */
+    /* text-align: center; Centraliza o texto */
+    color: black; /* Define cor do texto */
+    /* display: flex; Usa flexbox para alinhamento interno */
+    /* align-items: center; Alinha itens verticalmente */
+    /* justify-content: center; Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
+.conteudo {
+    background: rgb(255, 203, 154); /* Define cor de fundo */
+    flex: 1; /*Ocupa o espaço restante
+    display: flex; /* Usa flexbox para alinhamento interno */
+     /* Centraliza horizontalmente */
+    color: white; /* Define cor do texto */
+    border: 5px solid white; /* Adiciona uma borda branca */
+    padding: 20px 30px 20px 30px;
+    
+}
+.rodape {
+    background: rgb(255, 203, 154); /* Define cor de fundo */
+    height: 10%; /* Define altura do rodapé */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
